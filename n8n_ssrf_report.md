@@ -29,13 +29,17 @@ The "Import from URL" feature in n8n's workflow contains a **Server-Side Request
  ```docker.n8n.io/n8nio/n8n ``` 
 
 Step 2: After creating an account and logging in, click to create a workflow 
-
-
+![1siginin]（1siginin.png）
+![2createworkflow]（2createworkflow.png）
 
 Step 3:   Click "Add Node" and select "Trigger manually" 
+![3.1trigger]（3.1trigger.png）
 
 Step 4: Click the ellipsis icon in the top right corner and Choose "Import from URL" 
-
+![3importURL]（3importURL.png）
 Step 5: Enter `http://dnslog.com` in the URL field 
 
+![4ssrftest]（4ssrftest.png）
 Step 6: The dnslog platform receives the request
+![5burpsuitesuccess]（5burpsuitesuccess.png）
+![6hostip]（6hostip.png）
