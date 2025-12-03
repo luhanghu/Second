@@ -42,7 +42,11 @@ Step 4: Click the ellipsis icon in the top right corner and Choose "Import from 
 Step 5: Enter `http://dnslog.com` in the URL field 
 
 ![4ssrftest](4ssrftest.png)
+
 Step 6: The dnslog platform receives the request
-![5burpsuitesuccess]（5burpsuitesuccess.png）
-![6hostip]（6hostip.png）
+
+![5burpsuitesuccess](5burpsuitesuccess.png)
+
+![6hostip](6hostip.png)
+
 
